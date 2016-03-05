@@ -185,7 +185,7 @@ Data <- Data %>%
 Data <- Data %>%
         group_by(language, gender) %>%
         arrange(language, gender, random) %>% ## sorted by language and gender
-        mutate(strata_index=row_number()) ## rown_number() counts consecutive number inside each groups
+        mutate(strata_index=row_number()) ## row_number() counts consecutive number inside each groups
 
 
 # What we've now done is to create a variable called strata_index that
