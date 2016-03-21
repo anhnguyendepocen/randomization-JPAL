@@ -71,7 +71,7 @@ anyDuplicated(Data$schoolid)
 
 # The command anyDuplicated helps you verify if a variable indeed uniquely
 # identifies the observations in a dataset. If it does not, the anyDuplicated
-# function returns a positive number different from zero(which means that X number of observations are duplicate);
+# function returns a positive number (which means that X number of observations are duplicate);
 # For instance, try the anyDuplicate command on another variable in the dataset and
 # see what happens.
 
